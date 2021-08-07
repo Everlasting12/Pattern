@@ -26,11 +26,11 @@ public class Kite
 		      System.out.print("*");           // to print the left half stars like this -->         ***             ***** 
 		   }                                                                                  //    ****            ******* 
 		                                                                                      //   *****      ==>  *********
-		   for(m = 1;m<=j;m++)                                                                     //   *
-		   {                                                                                      //    **
-		      System.out.print("*");               // to print the right half side like this -->        ***
-		   }                                                                                      //    ****
-		   System.out.println();                                                                  //    *****
+		   for(m = 1;m<=j;m++)                                                                     //   
+		   {                                                                                      //    *
+		      System.out.print("*");               // to print the right half side like this -->        **
+		   }                                                                                      //    ***
+		   System.out.println();                                                                  //    ****
 		}
 		
 		//-------------------------------------------------------------------------------------------
@@ -68,14 +68,14 @@ public class Kite
 		   }
 		   
 		   for( k = 0;k<=j;k++)     
-         {                        
-            System.out.print("*");
-         }                    
+                   {                        
+                      System.out.print("*");
+                   }                    
          
-          for(m = 0;m<j;m++)      
-          {                        
-             System.out.print("*");
-          }                        
+                   for(m = 0;m<j;m++)      
+                   {                        
+                      System.out.print("*");
+                   }                        
          
 		   System.out.println();
 		}
