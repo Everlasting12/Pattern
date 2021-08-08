@@ -18,17 +18,17 @@ public class Kite
 		{
 		   for( j = num-1;j>i;j--)
 		   {
-		      System.out.print(".");               // to print the blank spaces  here I replaced spaces with . for better understanding
+		      System.out.print("  ");               // to print the blank spaces  here I replaced spaces with . for better understanding
 		   }
 		   
 		   for( k = 0;k<=j;k++)                                                                    //  *               *
 		   {                                                                                    //    **              ***
-		      System.out.print("*");           // to print the left half stars like this -->         ***             ***** 
+		      System.out.print("* ");           // to print the left half stars like this -->         ***             ***** 
 		   }                                                                                  //    ****            ******* 
 		                                                                                      //   *****      ==>  *********
 		   for(m = 1;m<=j;m++)                                                                     //   
 		   {                                                                                      //    *
-		      System.out.print("*");               // to print the right half side like this -->        **
+		      System.out.print("* ");               // to print the right half side like this -->        **
 		   }                                                                                      //    ***
 		   System.out.println();                                                                  //    ****
 		}
@@ -39,17 +39,17 @@ public class Kite
 		{
 		   for(j = 0;j<i;j++)
 		   {
-		      System.out.print(".");     // to print the blank spaces 
+		      System.out.print("  ");     // to print the blank spaces 
 		   }
 		   
 		   for(k = num;k>j;k--)                                        //    ****                             
 		   {                                                           //     ***                            
-		      System.out.print("*");  //to print the stars left side           **                              
+		      System.out.print("* ");  //to print the stars left side           **                              
 		   }                                                           //       *          ..                            
 		                                                               //                                     
 		   for(m = num-1;m>i;m--)                                      //        ***                        
 		   {                                                           //        **                     
-		      System.out.print("*");                                   //        *                           
+		      System.out.print("* ");                                   //        *                           
 		   }                                                           //
 		   
 		   System.out.println();
@@ -64,17 +64,17 @@ public class Kite
 		{
 		   for( j = num-1;j>i;j--)
 		   {
-		      System.out.print(".");               // to print the blank spaces/ . 
+		      System.out.print("  ");               // to print the blank spaces/ . 
 		   }
 		   
 		   for( k = 0;k<=j;k++)     
                    {                        
-                      System.out.print("*");
+                      System.out.print("* ");
                    }                    
          
                    for(m = 0;m<j;m++)      
                    {                        
-                      System.out.print("*");
+                      System.out.print("* ");
                    }                        
          
 		   System.out.println();
